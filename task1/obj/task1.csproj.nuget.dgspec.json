@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj": {}
+    "c:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj": {
+    "c:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj",
+        "projectUniqueName": "c:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj",
         "projectName": "task1",
-        "projectPath": "C:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj",
+        "projectPath": "c:\\Users\\Георгий\\Desktop\\C#\\task1\\task1.csproj",
         "packagesPath": "C:\\Users\\Георгий\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Георгий\\Desktop\\C#\\task1\\obj\\",
+        "outputPath": "c:\\Users\\Георгий\\Desktop\\C#\\task1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Георгий\\AppData\\Roaming\\NuGet\\NuGet.Config"
