@@ -12,19 +12,23 @@ return number;
 }
 
 int num = CallNumber("Введите пятизначное число: "); 
+int a = num/10000;
+int b = (num/1000)-a*10;
+int y = (num%10);
+int x = ((num%100)-y)/10;
 
+int res1 = a-y;
+int res2 = b-x;
 
-
-if ( ((( num/1000)+(num/10000))-((num%100)+(num%1000))) == 0)
-   {
+if (res1==0 && res2==0)
+ {
     Console.WriteLine(num + " -> да");
-   }
+ }
 
 else
-
-    
- Console.WriteLine(num + " -> нет");
-    
+{ 
+   Console.WriteLine(num + " -> нет");
+}
 
 
 
