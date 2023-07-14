@@ -15,13 +15,12 @@ int num = CallNumber("Введите пятизначное число: ");
 
 
 
-if ( (( num/1000)-(num%100)) == 0);
+if ( ((( num/1000)+(num/10000))-((num%100)+(num%1000))) == 0)
+   {
+    Console.WriteLine(num + " -> да");
+   }
 
-
- Console.WriteLine(num + " -> да");
- 
-
-if ( (( num/1000)-(num%100)) != 0);
+else
 
     
  Console.WriteLine(num + " -> нет");
