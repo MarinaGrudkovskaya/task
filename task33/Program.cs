@@ -5,6 +5,7 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+
 int Prompt(string message)
 {
 Console.Clear();
