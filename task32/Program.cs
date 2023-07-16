@@ -22,33 +22,3 @@ int z2 = PointCoordinat("Введите точку z2: ");
 
 double xyz = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
  Console.WriteLine(Math.Round(xyz, 2));
-
-
-
-
-
-// GetSquare();
-
-// void GetSquare()
-// {
-//         Console.Write("x1 - ");
-//         int x1 = int.Parse(Console.ReadLine());
-
-//         Console.Write("y1 - ");
-//         int y1 = int.Parse(Console.ReadLine());
-
-//         Console.Write("x2 - ");
-//         int x2 = int.Parse(Console.ReadLine());
-
-//         Console.Write("y2 - ");
-//         int y2 = int.Parse(Console.ReadLine());
-
-//         double a = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-
-//         Console.WriteLine(Math.Round(a,2));
-// }
-// Задача 23
-// Напишите программу, которая принимает на вход число (N) 
-// и выдаёт таблицу кубов чисел от 1 до N.
-// 3 -> 1, 8, 27
-// 5 -> 1, 8, 27, 64, 125

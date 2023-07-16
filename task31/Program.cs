@@ -4,6 +4,7 @@
 // 12821 -> да
 // 23432 -> да
 
+
 int CallNumber(string message)  
 {
 Console.WriteLine(message);
@@ -27,7 +28,7 @@ if (res1==0 && res2==0)
 
 else
 { 
-   Console.WriteLine(num + " -> нет");
+    Console.WriteLine(num + " -> нет");
 }
 
 
