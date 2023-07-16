@@ -40,17 +40,21 @@ Console.Write(message);
 int number = int.Parse(Console.ReadLine());
 return number;
 }
-int num = Prompt("Введите чило:  ");
+int num = Prompt("Введите чиcло:  ");
 void CubeNumber(int num)
 {
-    int count = 1  
+    int count = 1; 
     while (count <= num)
     {
-        if (count = num)
+        if (count == num)
         {
-            
+          Console.WriteLine(count*count*count);   
         }
-    Console.WriteLine(num)
+        else
+        Console.Write(count*count*count + "," );
+     count ++;
     }
-
+    
 }
+Console.Write($"{num} -> ");
+ CubeNumber(num);
