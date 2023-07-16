@@ -11,6 +11,7 @@ int PointCoordinat(string  message)
     int num = int.Parse(Console.ReadLine());
     return num;
 }
+
 int x1 = PointCoordinat("Введите точку x1: ");
 int y1 = PointCoordinat("Введите точку y1: ");
 int z1 = PointCoordinat("Введите точку z1: ");
@@ -18,8 +19,13 @@ int x2 = PointCoordinat("Введите точку x2: ");
 int y2 = PointCoordinat("Введите точку y2: ");
 int z2 = PointCoordinat("Введите точку z2: ");
 
+
 double xyz = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
  Console.WriteLine(Math.Round(xyz, 2));
+
+
+
+
 
 // GetSquare();
 
