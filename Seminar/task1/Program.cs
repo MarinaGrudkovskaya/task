@@ -30,6 +30,3 @@ else
 { 
    Console.WriteLine(num + " -> нет");
 }
-
-
-
